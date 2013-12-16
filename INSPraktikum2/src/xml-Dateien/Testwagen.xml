@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE fahrzeugdatenbank SYSTEM "fahrzeugdatenbank.dtd">
+<fahrzeugdatenbank>
+	<fahrzeug>
+		<modellbezeichnung>Testwagen-93</modellbezeichnung>
+		<seriennummer>985-5885-87</seriennummer>
+		<farbe>Rot</farbe>
+		<produktionsdatum>
+			<tag>25</tag>
+			<monat>09</monat>
+			<jahr>1994</jahr>
+		</produktionsdatum>
+		<anmerkung>
+		Dies ist ein toller schneller unglaublicher Wagen.
+		</anmerkung>
+		<motor>
+			<zylinderanzahl>2</zylinderanzahl>
+			<brennstoffart>Benzin</brennstoffart>
+			<hubraum>5,7 Liter</hubraum>
+		</motor>
+		<ausstattungliste>
+			<ausstattungsoption>
+				<bezeichnung>Heckspoiler</bezeichnung>
+				<anzahl>1</anzahl>
+				<einzelpreis>50</einzelpreis>
+			</ausstattungsoption>
+			<ausstattungsoption>
+			<bezeichnung>Sportauspuff</bezeichnung>
+				<anzahl>1</anzahl>
+				<einzelpreis>525</einzelpreis>
+			</ausstattungsoption>
+		</ausstattungsliste>
+	</fahrzeug>
+</fahrzeugdatenbank>

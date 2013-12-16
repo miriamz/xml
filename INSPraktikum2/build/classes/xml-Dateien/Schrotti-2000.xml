@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Beispieldaten der Firma New Wave Racer
+-->
+<!DOCTYPE fahrzeugdatenbank SYSTEM "fahrzeugdatenbank.dtd">
+<fahrzeugdatenbank>
+<fahrzeug hersteller="veryoldmobil" modellbezeichnung="Schrotti-2000"
+seriennummer="1749421" farbe="schwarz" >
+<produktionsdatum tag="01" monat="04" jahr="1988"/>
+<anmerkung >Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+eu, pretium quis, sem.
+</anmerkung>
+<motor zylinderanzahl="12" brennstoffart="benzin" hubraum="4629" />
+<ausstattungsliste>
+<ausstattungsoption bezeichnung="18 Zoll Alufelge" anzahl="4" einzelpreis="381"/>
+<ausstattungsoption bezeichnung="Sektkuehler" anzahl="1" einzelpreis="1423"/>
+<ausstattungsoption bezeichnung="Lenkrad aus Wurzelholz" anzahl="1"
+einzelpreis="501" />
+</ausstattungsliste>
+</fahrzeug>
+</fahrzeugdatenbank>

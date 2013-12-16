@@ -1,0 +1,25 @@
+<!--
+DTD der Fahrzeugdatenbank
+der Firma Oldsmobil
+-->
+<!ELEMENT fahrzeugdatenbank (fahrzeug*)>
+<!ELEMENT fahrzeug (modellbezeichnung, seriennummer, farbe, produktionsdatum , anmerkung, motor,
+ausstattungsliste)>
+<!ELEMENT modellbezeichnung (#PCDATA)>
+<!ELEMENT seriennummer (#PCDATA)>
+<!ELEMENT farbe (#PCDATA)>
+<!ELEMENT produktionsdatum (tag,monat,jahr)>
+<!ELEMENT anmerkung (#PCDATA)>
+<!ELEMENT motor (zylinderanzahl, brennstoffart,hubraum)>
+<!ELEMENT ausstattungsliste (ausstattungsoption*)>
+<!ELEMENT tag (#PCDATA)>
+<!ELEMENT monat (#PCDATA)>
+<!ELEMENT jahr (#PCDATA)>
+<!ELEMENT zylinderanzahl (#PCDATA)>
+<!ELEMENT brennstoffart (#PCDATA)>
+<!ELEMENT hubraum (#PCDATA)>
+<!ELEMENT ausstattungsoption (bezeichnung, anzahl, einzelpreis)>
+<!ELEMENT bezeichnung (#PCDATA)>
+<!ELEMENT anzahl (#PCDATA)>
+<!ELEMENT einzelpreis (#PCDATA)>
+<!ENTITY Oldsmobil „Oldsmobil GmbH & KOKG“>

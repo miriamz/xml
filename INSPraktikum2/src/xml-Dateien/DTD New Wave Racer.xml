@@ -1,0 +1,25 @@
+<!--
+DTD der Fahrzeugdatenbank
+der Firma New Wave Racer
+-->
+<!ELEMENT fahrzeugdatenbank (fahrzeug*)>
+<!ELEMENT fahrzeug (hersteller, modellbezeichnung, seriennummer, farbe, produktionsdatum, anmerkung, motor,
+ausstattungsliste>
+<!ELEMENT hersteller (#PCDATA)>
+<!ELEMENT modellbezeichnung (#PCDATA)>
+<!ELEMENT seriennummer(#PCDATA)>
+<!ELEMENT farbe (#PCDATA)>
+<!ELEMENT produktionsdatum (tag, monat, jahr)>
+<!ELEMENT anmerkung (#PCDATA)>
+<!ELEMENT motor (zylinderanzhal, brennstoffart, hubraum)>
+<!ELEMENT ausstattungsliste (aussattungsoption*)>
+<!ELEMENT tag (#PCDATA)>
+<!ELEMENT monat (#PCDATA)>
+<!ELEMENT jahr (#PCDATA)>
+<!ELEMENT zylinderanzahl (#PCDATA)>
+<!ELEMENT brennstoffart (#PCDATA)>
+<!ELEMENT hubraum (#PCDATA)>
+<!ELEMENT ausstattungsoption (bezeichnung, anzahl, einzelpreis)>
+<!ELEMENT bezeichnung (#PCDATA)>
+<!ELEMENT anzahl (#PCDATA)>
+<!ELEMENT einzelpreis (#PCDATA)>
