@@ -32,4 +32,34 @@
 			</ausstattungsoption>
 		</ausstattungsliste>
 	</fahrzeug>
+	<fahrzeug>
+		<modellbezeichnung>Testwagen-Schrott</modellbezeichnung>
+		<seriennummer>985-5885-87</seriennummer>
+		<farbe>Schwarz</farbe>
+		<produktionsdatum>
+			<tag>25</tag>
+			<monat>09</monat>
+			<jahr>1994</jahr>
+		</produktionsdatum>
+		<anmerkung>
+		Dies ist unglaublicher Wagen.
+		</anmerkung>
+		<motor>
+			<zylinderanzahl>2</zylinderanzahl>
+			<brennstoffart>Benzin</brennstoffart>
+			<hubraum>5,7 Liter</hubraum>
+		</motor>
+		<ausstattungsliste>
+			<ausstattungsoption>
+				<bezeichnung>Heckspoiler</bezeichnung>
+				<anzahl>1</anzahl>
+				<einzelpreis>50</einzelpreis>
+			</ausstattungsoption>
+			<ausstattungsoption>
+			<bezeichnung>Sportauspuff</bezeichnung>
+				<anzahl>1</anzahl>
+				<einzelpreis>525</einzelpreis>
+			</ausstattungsoption>
+		</ausstattungsliste>
+	</fahrzeug>
 </fahrzeugdatenbank>
