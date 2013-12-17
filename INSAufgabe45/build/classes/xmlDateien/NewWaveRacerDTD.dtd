@@ -1,0 +1,31 @@
+<!--
+DTD der Fahrzeugdatenbank
+der Firma New Wave Racer
+-->
+<!ELEMENT fahrzeugdatenbank (fahrzeug*)>
+<!ELEMENT fahrzeug (produktionsdatum, anmerkung, motor, ausstattungsliste)>
+<!ATTLIST fahrzeug 
+	hersteller CDATA
+	modellbezeichnung CDATA
+	seriennummer CDATA
+	farbe
+>
+<!ELEMENT produktionsdatum>
+<!ATTLIST produktionsdatum
+	tag CDATA
+	monat CDATA
+	jahr> CDATA
+<!ELEMENT anmerkung (#PCDATA)>
+<!ELEMENT motor>
+<!ATTLIST motor
+	zylinderanzahl CDATA
+	brennstoffart CDATA
+	hubraum
+>
+<!ELEMENT ausstattungsliste (aussattungsoption*)>
+<!ELEMENT ausstattungsoption>
+<!ATTLIST ausstattungsoption
+	bezeichnung CDATA
+	anzahl CDATA
+	einzelpreis
+>
